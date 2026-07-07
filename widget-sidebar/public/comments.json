@@ -1,0 +1,13 @@
+[
+  {
+    "id": "comment-1",
+    "author": "Jane Cooper",
+    "timestamp": "2026-06-28T14:32:00Z",
+    "text": "Customer called in about a billing question, resolved by explaining the proration on last month's invoice."
+  },
+  {
+    "id": "comment-2",
+    "author": "Marcus Lee",
+    "timestamp": "2026-07-01T09:10:00Z",
+    "text": "Followed up on the open support ticket. Customer confirmed the issue is resolved."
+  },

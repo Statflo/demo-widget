@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: transparent !important;
+}
+
+html.dark p, html.dark h3 {
+  color: #fff !important;
+}
+
+.innerContent {
+  padding: 16px;
+}
+
+.shadow-card .p-4 {
+  padding: .85rem !important;
+}
+
+.innerContent .list-group-item {
+  border: 0;
+}
+
+.container {
+  min-width: 500px;
+}
+.container.theme-dark {
+  background: rgb(31 35 50/1);
+  color: #fff;
+}
+
+/* Account Comments widget styling */
+
+.add-comment {
+  margin-bottom: 16px;
+}
+
+.add-comment-input {
+  width: 100%;
+  resize: vertical;
+  border: 1px solid #E5E7EF;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+html.dark .add-comment-input {
+  border-color: rgb(39 44 63);
+  background: rgb(31 35 50/1);
+  color: #fff;
+}
+
+.add-comment-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.add-comment-btn {
+  background: rgb(66 77 229/1);
+  border: 0;
+  padding: 6px 16px;
+  line-height: 22px;
+  font-size: 13px;
+}
+
+.add-comment-btn:disabled {
+  opacity: 0.6;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.comment-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  border: 1px solid #E5E7EF;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+html.dark .comment-item {
+  border-color: rgb(39 44 63);
+}
+
+.comment-avatar {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #F2F3F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: #30374F;
+}
+
+html.dark .comment-avatar {
+  background: rgb(39 44 63);
+  color: #fff;
+}
+
+.comment-main {
+  flex: 1;
+  text-align: left;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.comment-author {
+  font-size: 13px;
+}
+
+.comment-timestamp {
+  font-size: 12px;
+}
+
+.comment-text {
+  font-size: 13px;
+  margin-top: 4px;
+}
